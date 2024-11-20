@@ -67,18 +67,6 @@ body {
   color: #6c757d;
 }
 
-/* .user-message {
-  background-color: #cfe2ff;
-  margin-left: 20%;
-  border-radius: 15px 15px 0 15px;
-}
-
-.assistant-message {
-  background-color: #f8f9fa;
-  margin-right: 20%;
-  border-radius: 15px 15px 15px 0;
-  border: 1px solid #dee2e6;
-} */
 
 #message-input {
   resize: none;
