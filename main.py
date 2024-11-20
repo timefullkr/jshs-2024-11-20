@@ -38,7 +38,7 @@ async def serve_page(path: str):
 async def chat_endpoint(message: dict):
     """채팅 엔드포인트"""
     try:
-        if not messages_list and False:
+        if not messages_list :
             # 초기 시스템 프롬프트 설정
             with open('data/jshs-story.txt', 'r', encoding='utf-8') as f:
                 messages_list.append({
